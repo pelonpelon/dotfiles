@@ -1,9 +1,3 @@
 [submodule "mine/.vim/pack/pelon/start/vim-pandoc"]
 	path = mine/.vim/pack/pelon/start/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
-[submodule "tpope"]
-	path = tpope
-	url = ./tpope/
-[submodule "benorenstein"]
-	path = benorenstein
-	url = ./benorenstein
