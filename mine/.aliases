@@ -356,5 +356,6 @@ alias gitwC='git clean -f'
 alias gitwx='git rm -r'
 alias gitwX='git rm -rf'
 
-
+# List Submodules
+alias gitSl='git ls-files --stage |grep 160000'
 
