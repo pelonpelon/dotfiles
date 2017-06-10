@@ -1,0 +1,360 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Shortcuts
+alias cddb="cd ~/Dropbox"
+alias cddl="cd ~/Downloads"
+alias cddt="cd ~/Desktop"
+alias cdgd="cd ~/Google Drive"
+
+alias cdv="cd ~/.vim/"
+alias cdw="cd ~/work"
+
+alias cds="cd ~/Sites"
+alias cdsd="cd ~/Sites/docs"
+alias cdre="cd ~/Sites/repos"
+alias cdsb="cd ~/Sites/sandbox/"
+alias cdst="cd ~/Sites/clients/sf-eagle/html/storm"
+alias cdro="cd ~/Sites/clients/sf-eagle/html/rogue/app/_"
+alias cdrc="cd ~/Sites/clients/sf-eagle/html/wp-rogue/wp-content/themes/twentyfifteen-child"
+
+alias ls="ls -G"
+alias h="history"
+alias hg='history |grep'
+
+alias gsfe="vim scp://sfeagleftp@sf-eagle.com/html/"
+
+# alias v="zsh --no-rcs -c vim"
+function vimfast() {
+  if [[ -n "$1" ]]; then
+    zsh --no-rcs -c "vim $1"
+  else
+    zsh --no-rcs -c "vim ."
+  fi
+}
+function midnight() {
+  if [[ -n "$1" ]]; then
+    zsh --no-rcs -c "mc $1"
+  else
+    zsh --no-rcs -c "mc"
+  fi
+}
+
+alias v="vimfast"
+alias vstorm="vim $HOME/Sites/clients/sf-eagle/www/storm/"
+alias vro="vim $HOME/Sites/clients/sf-eagle/www/rogue/www/app/_"
+alias vnew="vim $HOME/Sites/clients/sf-eagle/www/new/www"
+alias vrogue="vim $HOME/Sites/clients/sf-eagle/www/rogue/www/"
+alias vsb="vim $HOME/Sites/sandbox/"
+alias vs="vim $HOME/Sites/"
+alias vsbmithril="vim $HOME/Sites/sandbox/mithril"
+alias vh="vim $HOME/"
+alias vb="vim $HOME/bin/"
+alias vv="vim $HOME/.vim/"
+
+alias mc="midnight"
+alias mcs="zsh --no-rcs -c midnight $HOME/Sites"
+alias mcs="zsh --no-rcs -c midnight $HOME/Sites"
+alias mcre="zsh --no-rcs -c midnight $HOME/Sites/repos"
+alias mcre="zsh --no-rcs -c midnight $HOME/Sites/repos"
+alias mcsb="zsh --no-rcs -c midnight $HOME/Sites/sandbox"
+alias mcsb="zsh --no-rcs -c midnight $HOME/Sites/sandbox"
+
+
+
+alias topm="top -o vsize"
+alias topc="top -o cpu -f -d -s 2" #cpu+time
+
+
+alias ag="ag --ignore bower.*"
+
+# Detect which `ls` flavor is in use
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+	colorflag="--color"
+else # OS X `ls`
+	colorflag="-G"
+fi
+
+# List all files colorized in long format
+alias ll="ls -lF ${colorflag}"
+
+# List all files colorized in long format, including dot files
+alias la="ls -laF ${colorflag}"
+
+# List only directories
+# alias lsd='ls -lF ${colorflag} | grep "^d"'
+
+# Always use color output for `ls`
+alias ls="command ls ${colorflag}"
+export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Gzip-enabled `curl`
+# alias gurl='curl --compressed'
+
+# Get week number
+# alias week='date +%V'
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+#alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+\)\|[a-fA-F0-9:]\+\)' | sed -e 's/inet6* //'"
+
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+# View HTTP traffic
+alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+
+# Canonical hex dump; some systems have this symlinked
+command -v hd > /dev/null || alias hd="hexdump -C"
+
+# OS X has no `md5sum`, so use `md5` as a fallback
+command -v md5sum > /dev/null || alias md5sum="md5"
+
+# OS X has no `sha1sum`, so use `shasum` as a fallback
+command -v sha1sum > /dev/null || alias sha1sum="shasum"
+
+# Trim new lines and copy to clipboard
+# alias c="tr -d '\n' | pbcopy"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# ROT13-encode text. Works for decoding, too! ;)
+alias rot13='tr a-zA-Z n-za-mN-ZA-M'
+
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# URL-encode strings
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+
+# Merge PDF files
+# Usage: `mergepdf -o output.pdf input{1,2,3}.pdf`
+alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
+
+# Disable Spotlight
+alias spotoff="sudo mdutil -a -i off"
+# Enable Spotlight
+alias spoton="sudo mdutil -a -i on"
+
+# PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
+alias plistbuddy="/usr/libexec/PlistBuddy"
+
+# Ring the terminal bell, and put a badge on Terminal.app’s Dock icon
+# (useful when executing time-consuming commands)
+alias badge="tput bel"
+
+# Intuitive map function
+# For example, to list all directories that contain a certain file:
+# find . -name .gitattributes | map dirname
+alias map="xargs -n1"
+
+# One of @janmoesen’s ProTip™s
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
+	alias "$method"="lwp-request -m '$method'"
+done
+
+# Make Grunt print stack traces by default
+command -v grunt > /dev/null && alias grunt="grunt --stack"
+
+# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
+# alias stfu="osascript -e 'set volume output muted true'"
+# alias pumpitup="osascript -e 'set volume 7'"
+# alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+# Kill all the tabs in Chrome to free up memory
+# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+# unalias rm
+
+# Git
+alias gitl="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+alias gs="git status -s"
+
+alias g='git'
+
+# Branch (b)
+alias gitb='git branch'
+alias gitbc='git checkout -b'
+alias gitbl='git branch -v'
+alias gitbL='git branch -av'
+alias gitbx='git branch -d'
+alias gitbX='git branch -D'
+alias gitbm='git branch -m'
+alias gitbM='git branch -M'
+alias gitbs='git show-branch'
+alias gitbS='git show-branch -a'
+
+# Commit (c)
+alias gitc='git commit --verbose'
+alias gitca='git commit --verbose --all'
+alias gitcm='git commit --message'
+alias gitco='git checkout'
+alias gitcO='git checkout --patch'
+alias gitcf='git commit --amend --reuse-message HEAD'
+alias gitcF='git commit --verbose --amend'
+alias gitcp='git cherry-pick --ff'
+alias gitcP='git cherry-pick --no-commit'
+alias gitcr='git revert'
+alias gitcR='git reset "HEAD^"'
+alias gitcs='git show'
+alias gitcl='git-commit-lost'
+
+# Conflict (C)
+alias gitCl='git status | sed -n "s/^.*both [a-z]*ed: *//p"'
+alias gitCa='git add $(gCl)'
+alias gitCe='git mergetool $(gCl)'
+alias gitCo='git checkout --ours --'
+alias gitCO='gCo $(gCl)'
+alias gitCt='git checkout --theirs --'
+alias gitCT='gCt $(gCl)'
+
+# Data (d)
+alias gitd='git ls-files'
+alias gitdc='git ls-files --cached'
+alias gitdx='git ls-files --deleted'
+alias gitdm='git ls-files --modified'
+alias gitdu='git ls-files --other --exclude-standard'
+alias gitdk='git ls-files --killed'
+alias gitdi='git status --porcelain --short --ignored | sed -n "s/^!! //p"'
+
+# Fetch (f)
+alias gitf='git fetch'
+alias gitfc='git clone'
+alias gitfm='git pull'
+alias gitfr='git pull --rebase'
+
+# Grep (g)
+alias gitg='git grep'
+alias gitgi='git grep --ignore-case'
+alias gitgl='git grep --files-with-matches'
+alias gitgL='git grep --files-without-matches'
+alias gitgv='git grep --invert-match'
+alias gitgw='git grep --word-regexp'
+
+# Index (i)
+alias gitia='git add'
+alias gitiA='git add --patch'
+alias gitiu='git add --update'
+alias gitid='git diff --no-ext-diff --cached'
+alias gitiD='git diff --no-ext-diff --cached --word-diff'
+alias gitir='git reset'
+alias gitiR='git reset --patch'
+alias gitix='git rm -r --cached'
+alias gitiX='git rm -rf --cached'
+
+# Log (l)
+alias gitl='git log --topo-order --pretty=format:"${_git_log_medium_format}"'
+alias gitls='git log --topo-order --stat --pretty=format:"${_git_log_medium_format}"'
+alias gitld='git log --topo-order --stat --patch --full-diff --pretty=format:"${_git_log_medium_format}"'
+alias gitlo='git log --topo-order --pretty=format:"${_git_log_oneline_format}"'
+alias gitlg='git log --topo-order --all --graph --pretty=format:"${_git_log_oneline_format}"'
+alias gitlb='git log --topo-order --pretty=format:"${_git_log_brief_format}"'
+alias gitlc='git shortlog --summary --numbered'
+alias gitl='git log --oneline --decorate --graph --all'
+
+# Merge (m)
+alias gitm='git merge'
+alias gitmC='git merge --no-commit'
+alias gitmF='git merge --no-ff'
+alias gitma='git merge --abort'
+alias gitmt='git mergetool'
+
+# Push (p)
+alias gitp='git push'
+alias gitpf='git push --force'
+alias gitpa='git push --all'
+alias gitpA='git push --all && git push --tags'
+alias gitpt='git push --tags'
+alias gitpc='git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
+alias gitpp='git pull origin "$(git-branch-current 2> /dev/null)" && git push origin "$(git-branch-current 2> /dev/null)"'
+
+# Rebase (r)
+alias gitr='git rebase'
+alias gitra='git rebase --abort'
+alias gitrc='git rebase --continue'
+alias gitri='git rebase --interactive'
+alias gitrs='git rebase --skip'
+
+# Remote (R)
+alias gitR='git remote'
+alias gitRl='git remote --verbose'
+alias gitRa='git remote add'
+alias gitRx='git remote rm'
+alias gitRm='git remote rename'
+alias gitRu='git remote update'
+alias gitRp='git remote prune'
+alias gitRs='git remote show'
+alias gitRb='git-hub-browse'
+
+# Stash (s)
+#alias gits='git stash'
+alias gitsa='git stash apply'
+alias gitsx='git stash drop'
+alias gitsX='git-stash-clear-interactive'
+#alias gitsl='git stash list'
+#alias gitsL='git-stash-dropped'
+alias gitsd='git stash show --patch --stat'
+alias gitsp='git stash pop'
+alias gitsr='git-stash-recover'
+alias gitss='git stash save --include-untracked'
+alias gitsS='git stash save --patch --no-keep-index'
+alias gitsw='git stash save --include-untracked --keep-index'
+
+# Submodule (S)
+alias gitS='git submodule'
+alias gitSa='git submodule add'
+alias gitSf='git submodule foreach'
+alias gitSi='git submodule init'
+alias gitSu='git submodule update --init --recursive'
+alias gitSur='git submodule update --init --recursive --remote'
+#alias gitSl='git submodule status'
+alias gitSm='git-submodule-move'
+alias gitSs='git submodule sync'
+alias gitSp='git submodule foreach git pull origin master'
+alias gitSr='git-submodule-remove'
+
+# Working Copy (w)
+alias gitws='git status --ignore-submodules=${_git_status_ignore_submodules} --short'
+alias gitwS='git status --ignore-submodules=${_git_status_ignore_submodules}'
+alias gitwd='git diff --no-ext-diff'
+alias gitwD='git diff --no-ext-diff --word-diff'
+alias gitwr='git reset --soft'
+alias gitwR='git reset --hard'
+alias gitwc='git clean -n'
+alias gitwC='git clean -f'
+alias gitwx='git rm -r'
+alias gitwX='git rm -rf'
+
+
+

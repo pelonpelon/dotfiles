@@ -1,0 +1,27 @@
+
+snippet setft "add set ft to ftdetect/myplugin.vim" b
+au BufNewFile,BufRead *.$1 set filetype=${2:`!p snip.rv = snip.basename`.$1}
+$0
+endsnippet
+
+snippet setsyn "syntax/myplugin.vim template" b
+if exists("b:current_syntax")
+    finish
+endif
+
+echom "Loading `!p snip.rv = path`."
+
+" repeat syntax entries with trigger: sk
+syntax keyword ${1:`!p snip.rv = snip.basename`}_${2:Keyword} ${3:$1 keywords}
+highlight link $1_$2 $2
+$0
+
+let b:current_syntax = "$1"
+endsnippet
+
+snippet sk "syntax keyword definition" b
+syntax keyword ${1:`!p snip.rv = snip.basename`}_${2:Keyword} ${3:$1 keywords}
+highlight link $1_$2 $2
+$0
+endsnippet
+

@@ -1,0 +1,294 @@
+[submodule "bundle/dash.vim"]
+path = bundle/dash.vim
+url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/delimitMate"]
+path = bundle/delimitMate
+url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/nerdtree"]
+path = bundle/nerdtree.vim
+url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/syntastic"]
+path = bundle/syntastic
+url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "bundle/vim-jsbeautify"]
+path = bundle/vim-jsbeautify
+url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "bundle/js-beautify"]
+path = bundle/js-beautify.vim
+url = https://github.com/einars/js-beautify.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-togglelist"]
+path = bundle/vim-togglelist
+url = https://github.com/milkypostman/vim-togglelist.git
+[submodule "bundle/vim-unimpaired"]
+path = bundle/vim-unimpaired
+url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/YouCompleteMe"]
+path = bundle/YouCompleteMe.vim
+url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/OmniSharpServer"]
+path = bundle/OmniSharpServer.vim
+url = https://github.com/nosami/OmniSharpServer.git
+[submodule "bundle/vim-coffee-script"]
+path = bundle/vim-coffee-script
+url = https://github.com/kchmck/vim-coffee-script
+[submodule "bundle/vim-stylus"]
+path = bundle/vim-stylus
+url = https://github.com/wavded/vim-stylus.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/open-browser"]
+path = bundle/open-browser.vim
+url = https://github.com/tyru/open-browser.vim.git
+[submodule "bundle/tagbar"]
+path = bundle/tagbar
+url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/vim-gitgutter"]
+path = bundle/vim-gitgutter
+url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/CoffeeTags"]
+path = bundle/CoffeeTags
+url = https://github.com/lukaszkorecki/CoffeeTags.git
+[submodule "bundle/html5.vim"]
+	path = bundle/html5.vim
+	url = https://github.com/othree/html5.vim
+[submodule "bundle/tern_for_vim"]
+	path = bundle/tern_for_vim
+	url = https://github.com/marijnh/tern_for_vim
+[submodule "bundle/tern-meteor"]
+	path = bundle/tern-meteor
+	url = https://github.com/Slava/tern-meteor
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/vim-tbone"]
+	path = bundle/vim-tbone
+	url = https://github.com/tpope/vim-tbone.git
+[submodule "bundle/vim-vinegar"]
+	path = bundle/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar.git
+[submodule "bundle/vim-wordy"]
+	path = bundle/vim-wordy
+	url = https://github.com/reedes/vim-wordy.git
+[submodule "bundle/vim-writingsyntax"]
+	path = bundle/vim-writingsyntax
+	url = https://github.com/jamestomasino/vim-writingsyntax.git
+[submodule "bundle/vimux"]
+	path = bundle/vimux
+	url = https://github.com/benmills/vimux.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/yajs.vim
+	url = https://github.com/othree/yajs.vim.git
+[submodule "bundle/vim-space"]
+	path = bundle/vim-space
+	url = https://github.com/spiiph/vim-space.git
+[submodule "bundle/vim-submode"]
+	path = bundle/vim-submode
+	url = https://github.com/kana/vim-submode.git
+[submodule "bundle/vim-sleuth"]
+	path = bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
+[submodule "bundle/vim-scriptease"]
+	path = bundle/vim-scriptease
+	url = https://github.com/tpope/vim-scriptease.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-projectionist"]
+	path = bundle/vim-projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "bundle/vim-pipe"]
+	path = bundle/vim-pipe
+	url = https://github.com/krisajenkins/vim-pipe.git
+[submodule "bundle/vim-pencil"]
+	path = bundle/vim-pencil
+	url = https://github.com/reedes/vim-pencil.git
+[submodule "bundle/vim-obsession"]
+	path = bundle/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git
+[submodule "bundle/vim-node"]
+	path = bundle/vim-node
+	url = https://github.com/moll/vim-node.git
+[submodule "bundle/vim-litecorrect"]
+	path = bundle/vim-litecorrect
+	url = https://github.com/reedes/vim-litecorrect.git
+[submodule "bundle/vim-lexical"]
+	path = bundle/vim-lexical
+	url = https://github.com/reedes/vim-lexical.git
+[submodule "bundle/vim-jsfmt"]
+	path = bundle/vim-jsfmt
+	url = https://github.com/mephux/vim-jsfmt.git
+[submodule "bundle/vim-jdaddy"]
+	path = bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy.git
+[submodule "bundle/vim-javascript-syntax"]
+	path = bundle/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-colors-pencil"]
+	path = bundle/vim-colors-pencil
+	url = https://github.com/reedes/vim-colors-pencil.git
+[submodule "bundle/vim-cjsx"]
+	path = bundle/vim-cjsx
+	url = https://github.com/mtscout6/vim-cjsx.git
+[submodule "bundle/vim-addon-local-vimrc"]
+	path = bundle/vim-addon-local-vimrc
+	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
+[submodule "bundle/tmru"]
+	path = bundle/tmru
+	url = https://github.com/vim-scripts/tmru.git
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/splitjoin.vim"]
+	path = bundle/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "bundle/jsx.vim"]
+	path = bundle/jsx.vim
+	url = https://github.com/jsx/jsx.vim.git
+[submodule "bundle/json-formatter.vim"]
+	path = bundle/json-formatter.vim
+	url = https://github.com/vim-scripts/json-formatter.vim.git
+[submodule "bundle/javascript-libraries-syntax.vim"]
+	path = bundle/javascript-libraries-syntax.vim
+	url = https://github.com/othree/javascript-libraries-syntax.vim.git
+[submodule "bundle/ag"]
+	path = bundle/ag
+	url = https://github.com/rking/ag.git
+[submodule "bundle/Vim-Markdown-Preview"]
+	path = bundle/Vim-Markdown-Preview
+	url = https://github.com/vim-scripts/Vim-Markdown-Preview.git
+[submodule "bundle/VOoM"]
+	path = bundle/VOoM
+	url = https://github.com/vim-scripts/VOoM.git
+[submodule "bundle/JavaScript-Indent"]
+	path = bundle/JavaScript-Indent
+	url = ./bundle/CoffeeTags
+[submodule "bundle/Emmet.vim"]
+	path = bundle/Emmet.vim
+	url = https://github.com/vim-scripts/Emmet.vim.git
+[submodule "celebrity.vimrc/Damian-Conway-s-Vim-Setup"]
+	path = celebrity.vimrc/Damian-Conway-s-Vim-Setup
+	url = https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = https://github.com/mattn/gist-vim
+[submodule "bundle/vim-haml"]
+	path = bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "bundle/vim-handlebars"]
+	path = bundle/vim-handlebars
+	url = git://github.com/nono/vim-handlebars.git
+[submodule "bundle/vim-indent-guides"]
+	path = bundle/vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/vim-misc"]
+	path = bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/vim-notes"]
+	path = bundle/vim-notes
+	url = https://github.com/xolox/vim-notes.git
+[submodule "bundle/Rainbow-Parenthesis"]
+	path = bundle/Rainbow-Parenthesis
+	url = https://github.com/vim-scripts/Rainbow-Parenthesis.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "gist-vim"]
+	path = gist-vim
+	url = https://github.com/mattn/gist-vim
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = http://github.com/mattn/emmet-vim
+[submodule "bundle/vim-markdown-gabriellelana"]
+	path = bundle/vim-markdown-gabriellelana
+	url = https://github.com/gabrielelana/vim-markdown.git
+[submodule "bundle/memolist.vim"]
+	path = bundle/memolist.vim
+	url = https://github.com/glidenote/memolist.vim.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/vim-textobj-sentence"]
+	path = bundle/vim-textobj-sentence
+	url = https://github.com/reedes/vim-textobj-sentence.git
+[submodule "bundle/vim-textobj-user"]
+	path = bundle/vim-textobj-user
+	url = https://github.com/reedes/vim-textobj-user.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/unite-outline"]
+	path = bundle/unite-outline
+	url = https://github.com/Shougo/unite-outline.git
+[submodule "bindle/vim-smooth-scroll"]
+	path = bindle/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll.git
+[submodule "bundle/vim-smooth-scroll"]
+	path = bundle/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll.git
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = https://github.com/vim-scripts/vim-startify.git
+[submodule "bundle/vim-markdown-preview"]
+	path = bundle/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
+[submodule "bundle/markdown-preview"]
+	path = bundle/markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
+[submodule "bundle/vim-textobj-quote"]
+	path = bundle/vim-textobj-quote
+	url = https://github.com/reedes/vim-textobj-quote.git
+[submodule "bundle/vim-markdown-tpope"]
+	path = bundle/vim-markdown-tpope
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/vim-online-thesaurus"]
+	path = bundle/vim-online-thesaurus
+	url = https://github.com/beloglazov/vim-online-thesaurus.git
+[submodule "bundle/thesaurus_query"]
+	path = bundle/thesaurus_query
+	url = https://github.com/Ron89/thesaurus_query.vim.git
+[submodule "bundle/vim-pandoc"]
+	path = bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "bundle/vim-pandoc-syntax"]
+	path = bundle/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
