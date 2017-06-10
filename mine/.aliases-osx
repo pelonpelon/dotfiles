@@ -1,0 +1,30 @@
+#!/bin/bash
+
+alias cds="cd ~/Sites"
+alias cdss="cd ~/Sites/sf-eagle/www/storm"
+alias cdsr="cd ~/Sites/sf-eagle/www/rogue"
+alias cdsl="cd ~/Sites/sf-eagle/www/lab"
+alias cdb="cd ~/Sites/clients/sfibw/www/dev"
+
+alias ls="ls -G"
+
+alias md="mkdir $1 && cd $1"
+
+
+alias cdsbm="cd ~/Sites/sandbox/meteor/"
+alias cdsbf="cd ~/Sites/sandbox/famo.us/"
+alias cdsb="cd ~/Sites/sandbox/"
+alias cdsk="cd ~/Sites/sandbox/skeleton"
+
+alias cdsm="cd ~/Sites/repos/meteor/"
+alias cdsf="cd ~/Sites/repos/famo.us"
+
+alias gsfe="vim scp://sfeagleftp@sf-eagle.com/html/"
+
+alias vv="vim -c NERDTree"
+
+alias git=hub
+
+alias ll="ls -Gl"
+alias la="ls -Gla"
+alias gitl="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"

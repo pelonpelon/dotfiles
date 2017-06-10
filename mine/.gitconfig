@@ -1,0 +1,35 @@
+[user]
+  name = pelonpelon
+  email = github@xlfag.com
+[core]
+  autocrlf = input
+  amputate = push origin --delete
+	excludesfile = /Users/pelon/.gitignore
+[push]
+  default = simple
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+
+[alias]
+  co = checkout
+  cm = commit
+  ac = !git add -A && git commit
+  st = !git status -sb
+  p = push
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+	ctags = !.git/hooks/ctags
+	tree = log --oneline --decorate --all --graph
+
+[color]
+  ui = 1
+[init]
+	templatedir = ~/.git_template
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true

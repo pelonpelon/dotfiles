@@ -1,0 +1,316 @@
+
+[save-as]
+0=/home/pelon/config.yml
+
+[mc.shared.search]
+0=layoutlist
+
+[:unselect_cmd: Unselect ]
+0=
+
+[inpmc.hotlist.add]
+0=/var/log/kismet
+1=/#ftp:pelon@192.168.0.1
+2=/media/BODEGA
+3=WIKI
+4=/home/pelon
+5=touch:Downloads/Books
+
+[input-lbl]
+0=Debbie
+
+[input-pth]
+0=/#ftp:pelon@192.168.1.129
+
+[inp:ftplink_cmd: FTP to machine ]
+0=ftp://pelon@192.168.0.1
+1=pelon:la1137cp@192.168.0.10
+2=pelon:la1137cp@192.168.0.1
+3=root:alpine@192.168.0.11
+4=root@192.168.0.11
+5=pelon@debbie
+6=ftp://pelon@debbie
+7=/#ftp:pelon@debbie
+8=/#ftp:pelon@192.168.1.129
+9=ftp:pelon@192.168.1.129
+
+[input-2]
+0=/home/pelon/.vim/vimrc.local
+1=/home/pelon/.vim/vimrc
+2=/media/BODEGA/work/wiki
+3=/media/BODEGA/Books/Short Stories/Borges/Collected Fictions - Jorge Luis Borges - reframed.pdf
+4=/home/pelon/Debbie/home/pelon/.FBReader
+5=/home/pelon/Debbie/home/pelon/.gnome2/evince
+6=/home/pelon/Debbie/home/pelon/.kde/share/apps/okular/docdata
+7=/home/pelon/work/sites/sandbox/js/jquery.js
+8=/home/pelon/Debbie/home/pelon/.mozilla
+9=/home/pelon/Debbie/home/pelon/.pentadactyl
+10=/home/pelon/Debbie/home/pelon/.pentadactylrc
+11=/home/pelon/Debbie/home/pelon/.pentadactylrc-design
+12=/home/pelon/work/reading
+13=/home/pelon/work/Short Stories
+
+[input-1]
+0=/home/pelon/.vimrc.local
+1=/home/pelon/.vimrc
+2=/home/pelon/work/wiki
+3=/home/pelon/Desktop/Collected Fictions - Jorge Luis Borges - reframed.pdf
+4=/home/pelon/Desktop/CurrentBook
+5=/home/pelon/.FBReader
+6=/home/pelon/.gnome2/evince
+7=/home/pelon/.kde/share/apps/okular/docdata
+8=/home/pelon/work/sites/sandbox/demo_files/jquery.js
+9=/home/pelon/.mozilla
+10=/home/pelon/.pentadactyl
+11=/home/pelon/.pentadactylrc
+12=/home/pelon/.pentadactylrc-design
+13=/home/pelon/Dropbox/reading
+14=/home/pelon/Dropbox/Short Stories
+
+[inpmc.fm.mkdir]
+0=archive
+1=tmp
+2=caps
+3=work
+4=..
+5=topics
+6=feeds
+7=plugin-storage
+8=Movies
+9=AllThings
+10=Hemingway
+11=Asimov
+12=Waugh
+13=OConnor
+14=Fuentes
+15=Roth
+16=Updike
+17=Bradbury
+
+[Dir Hist New Right Panel]
+0=/home/pelon/PDF
+1=/home/pelon/Public
+2=/media/BODEGA/Music
+3=/.podget
+4=/POD
+5=/data
+6=/media/BODEGA/AllThings
+7=/media/BODEGA/BODEGA/AllThings
+8=/media/BODEGA/BODEGA
+9=/media/BODEGA/Books/Short Stories
+10=/media/BODEGA/Books
+11=/home/pelon/Debbie
+12=/home/pelon/Debbie/home
+13=/home/pelon/Debbie/home/pelon/.mozilla/eclipse
+14=/home/pelon/Debbie/home/pelon/.mozilla/extensions/{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+15=/home/pelon/Debbie/home/pelon/.mozilla/extensions/{a79fe89b-6662-4ff4-8e88-09950ad4dfde}
+16=/home/pelon/Debbie/home/pelon/.mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+17=/home/pelon/Debbie/home/pelon/.mozilla/extensions
+18=/home/pelon/Debbie/home/pelon/.mozilla/firefox/33uch5al.Home
+19=/home/pelon/Debbie/home/pelon/.mozilla/firefox
+20=/home/pelon/Debbie/home/pelon/.mozilla
+21=/home/pelon/Debbie/home/pelon
+22=/home/pelon/.gnome2
+23=/home/pelon/.gnome2_private
+24=/home/pelon/.config
+25=/home/pelon/.gconf/apps/gnome-terminal/profiles/Profile0
+26=/home/pelon/.gconf/apps/gnome-terminal/profiles/Default
+27=/home/pelon/.gconf/apps/gnome-terminal/profiles
+28=/home/pelon/.gconf/apps/gnome-terminal/global
+29=/home/pelon/.gconf/apps/gnome-terminal
+30=/home/pelon/.gconf/apps
+31=/home/pelon/.gconf
+32=/home/pelon
+33=/home
+34=/
+35=/media
+36=/media/BODEGA/transmission/aa
+37=/media/BODEGA/Audiobooks
+38=/media/BODEGA/Audiobooks/Ray Bradbury
+39=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Dandelion Wine
+40=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Short Stories
+41=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Sixty-Six
+42=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Something Wicked This Way Comes
+43=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/The Illustrated Man
+44=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/The Martian Chronicles
+45=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Zen in the Art of Writing
+46=/media/BODEGA/Audiobooks/Ray Bradbury/E-books
+47=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Green Shadows, White Whale/Bradbury, Ray - Green Shadows, White Whale (rtf).rar#urar
+48=/media/BODEGA/Audiobooks/Ray Bradbury/E-books/Green Shadows, White Whale
+49=/home/pelon/work/reading/Development
+50=/home/pelon/work/reading/Learning
+51=/home/pelon/work/reading/Magazines
+52=/home/pelon/work/reading
+53=/media/BODEGA/kismet/archive
+54=/media/BODEGA/kismet
+55=/media/BODEGA/.Trash-1000
+56=/media/BODEGA/transmission
+57=/media/BODEGA
+58=/media/BODEGA/Downloads/powertop-2.0.tar#utar
+59=/media/BODEGA/Downloads
+
+[cmdline]
+0=0
+1=mkdir kismet
+2=touch English.txt
+3=cd/var/log/kismet
+4=cd /var/log
+5=cd Users/pelon/work
+6=cd media/Users/pelon/work/wiki
+7=cd /media/Users/pelon/work/wiki
+8=cd /var/log/
+9=cd /var/log/kismet
+10=cd /etc
+11=links 
+12=links 10703.
+13=touch authorized_keys
+14=cd /usr/bin
+15=y
+16=cd /var/www/news
+17=cd #sh:yourusername@example.com:/home/username/
+18=cd #sh:root@touch
+19=cd #sh:root@touch:/private/var
+20=cd #sh:root@touch:/private/var/mobile/Media/Downloads
+21=cd #sh:root@touch:/private/var/mobile/Media/Downloads/Books
+22=q
+23=cdm
+24=cd /media
+25=cd bin
+26=:[M N!
+27=:q
+28=:
+29=cd /usr/lib/
+30=cd ~/Debbie/home/pelon
+31=[19~
+32=[6~
+33=cd
+34=[15~
+35=8
+36=
+
+[Dir Hist New Left Panel]
+0=/var/log
+1=/var
+2=/etc/dhcp3
+3=/etc/network/if-up.d
+4=/etc/network
+5=/etc
+6=/var/log/kismet
+7=/home/pelon/work/v8/v8-read-only
+8=/home/pelon/work/v8
+9=/home/pelon/.gvfs
+10=/media/tmp
+11=/home/pelon/.gvfs/TouchMe
+12=/home/pelon/.gvfs/TouchMe/NightRec
+13=/media/BODEGA/Movies
+14=/media/BODEGA/transmission
+15=/media/BODEGA/Audiobooks
+16=/home/pelon/Downloads
+17=/home/pelon/Bookmarklets
+18=/home/pelon/aircrack
+19=/home/pelon/Desktop.old
+20=/home/pelon/Desktop/Volaris-dispute
+21=/home/pelon/Desktop
+22=/home/pelon/Debbie
+23=/home/pelon/Debbie/home
+24=/home/pelon/Debbie/home/pelon/.local/share/data
+25=/home/pelon/Debbie/home/pelon/.local/share/applications
+26=/home/pelon/Debbie/home/pelon/.local/share
+27=/home/pelon/Debbie/home/pelon/.local
+28=/home/pelon/Debbie/home/pelon/.config
+29=/home/pelon/Debbie/home/pelon
+30=/home/pelon/Debbie/home/pelon/.gnome2/accels
+31=/home/pelon/Debbie/home/pelon/.gnome2/evince
+32=/home/pelon/Debbie/home/pelon/.gnome2
+33=/usr/lib/gvfs
+34=/usr/lib
+35=/usr
+36=/home/pelon/.kde
+37=/home/pelon/.kde/share
+38=/home/pelon/.kde/share/apps
+39=/home/pelon/.kde/share/apps/okular/docdata
+40=/home/pelon/.kde/share/apps/okular
+41=/home/pelon/.mozilla
+42=/home/pelon/.mozilla/extensions/{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+43=/home/pelon/.mozilla/extensions/{a79fe89b-6662-4ff4-8e88-09950ad4dfde}
+44=/home/pelon/.mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+45=/home/pelon/.mozilla/extensions
+46=/home/pelon/work/Short Stories/Bradbury
+47=/home/pelon/work/reading/Books
+48=/home/pelon/work/reading
+49=/home/pelon/work/Short Stories
+50=/home/pelon/work
+51=/home/pelon/.AbiSuite
+52=/home/pelon
+53=/home
+54=/
+55=/media
+56=/media/BODEGA/Books
+57=/media/BODEGA
+58=/media/BODEGA/Downloads/powertop-2.0.tar#utar
+59=/media/BODEGA/Downloads
+
+[input-def]
+0=*
+
+[input2]
+0=000-Oxford Guide to English Grammar.pdf
+1=/home/pelon/bin/
+2=/home/pelon/work/wiki/
+3=/var/log/kismet/
+4=y
+5=/home/pelon/.vim/
+6=wiki.bak
+7=/home/pelon/bin/getnews2
+8=getnews
+9=/media/BODEGA/newspaper/
+10=/etc/
+11=hosts_adblock
+12=resolv.conf.dnsmasq
+13=dnsmasq.conf.mine
+14=dnsmasq.conf
+15=/home/pelon/.rawdog/plugins/
+16=/home/pelon/.rawdog/topics/
+17=/home/pelon/.rawdog/
+18=/home/pelon/.rawdog/plugin-storage/
+19=/var/www/news/
+20=/media/disk/
+21=/#sh:root@touch/#sh:root@touch:/private/var/#sh:root@touch:/private/var/mobile/Media/Downloads/#sh:root@touch:/private/var/mobile/Media/Downloads/Books/
+22=#sh:root@touch:/private/var/mobile/Media/Downloads/Books/
+23=podgetrc-sa
+24=serverlist-sa
+25=/var/log/kismet/archive/
+26=/home/pelon/Desktop/
+27=/home/pelon/
+28=/home/pelon/work/sites/sandbox/demo_files/
+29=/media/IUbuntu/
+30=.mozilla-ubu
+31=/home/pelon/Dropbox/
+32=/media/BODEGA/Books/Kindle2
+33=/media/BODEGA/Books/CalibreSpanish
+34=/media/BODEGA/Audiobooks/
+35=/media/BODEGA/Movies/
+36=f.zip
+37=French Short Stories.epub
+38=fss.zip
+39=/home/pelon/work/
+40=/home/pelon/work/Short Stories/Hawthorne/
+41=/home/pelon/Dropbox/Short Stories/Hemingway/
+42=/home/pelon/Dropbox/Short Stories/Asimov/
+43=/home/pelon/Dropbox/Short Stories/Waugh/
+44=/home/pelon/Dropbox/Short Stories/OConnor/
+45=/home/pelon/Dropbox/Short Stories/Fuentes/
+46=/home/pelon/Dropbox/Short Stories/Cortazar/
+47=/home/pelon/Dropbox/Short Stories/
+48=/home/pelon/work/reading/PhilipRoth - Conversion of the Jews.pdf
+49=/home/pelon/work/reading/
+50=/home/pelon/work/Short Stories/Roth/
+51=/home/pelon/work/Short Stories/Updike/John Updike - The Alligators.pdf
+52=/home/pelon/work/Short Stories/Cortazar/
+53=/home/pelon/work/Short Stories/Wallace/
+54=/media/BODEGA/Books/
+55=/home/pelon/work/Short Stories/Bradbury/
+56=/home/pelon/work/reading/Books/
+57=/media/BODEGA/Downloads/
+58=/home/pelon/work/Short Stories/
+59=/media/BODEGA/Books/Short Stories/

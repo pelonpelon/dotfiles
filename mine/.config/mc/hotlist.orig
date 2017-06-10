@@ -1,0 +1,7 @@
+ENTRY "Debbie" URL "/#ftp:pelon:la1137cp@192.168.1.129"
+ENTRY "/home/pelon" URL "/home/pelon"
+ENTRY "WIKI" URL "/media/BODEGA/work/wiki"
+ENTRY "/var/log/kismet" URL "/var/log/kismet"
+ENTRY "/#ftp:pelon@192.168.0.1" URL "/#ftp:pelon@192.168.0.1"
+ENTRY "/media/BODEGA" URL "/media/BODEGA"
+ENTRY "touch:Downloads/Books" URL "/home/pelon/#sh:root@touch:/private/var/mobile/Media/Downloads/Books"
