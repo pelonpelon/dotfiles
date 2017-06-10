@@ -11,7 +11,7 @@ set undodir=~/.vim-backups
 
 set nocompatible
 
-execute pathogen#infect()
+#execute pathogen#infect()
 
 " Emulate bundles, allow plugins to live independantly. Easier to manage.
 filetype plugin indent on

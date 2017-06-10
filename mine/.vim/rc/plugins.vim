@@ -1,3 +1,8 @@
+# Thesaurus Query
+let g:tq_enabled_backends=["thesaurus_com","openoffice_en","mthesaur_txt"]
+let g:tq_openoffice_en_file="~/.vim/thesaurus/th_en_US_v2"
+let g:tq_mthesaur_file="~/.vim/thesaurus/mthesaur.txt"
+
 """ pandoc
 let g:pandoc#folding#fdc = 0
 

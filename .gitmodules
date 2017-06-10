@@ -187,3 +187,9 @@
 [submodule "mine/.vim/pack/pelon/start/vim-pandoc-syntax.git"]
 	path = mine/.vim/pack/pelon/start/vim-pandoc-syntax.git
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
+[submodule "mine/.vim/pack/pelon/opt/thesaurus_query.vim.git"]
+	path = mine/.vim/pack/pelon/opt/thesaurus_query.vim.git
+	url = https://github.com/Ron89/thesaurus_query.vim.git
+[submodule "mine/.vim/pack/pelon/start/vim-unimpaired"]
+	path = mine/.vim/pack/pelon/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
