@@ -16,6 +16,3 @@
 [submodule "celebs/mathiasbynens"]
 	path = celebs/mathiasbynens
 	url = https://github.com/mathiasbynens/dotfiles.git
-[submodule "mine/.vim/pack/pelon/start/Emmet.vim"]
-	path = mine/.vim/pack/pelon/start/Emmet.vim
-	url = ../archive/Emmet.vim
