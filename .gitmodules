@@ -178,3 +178,9 @@
 [submodule "mine/.vim/pack/pelon/opt/vim-pandoc"]
 	path = mine/.vim/pack/pelon/opt/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "mine/.vim/pack/pelon/start/vim-airline"]
+	path = mine/.vim/pack/pelon/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "mine/.vim/pack/pelon/start/unite-outline"]
+	path = mine/.vim/pack/pelon/start/unite-outline
+	url = https://github.com/Shougo/unite-outline.git
