@@ -22,3 +22,159 @@
 [submodule "mine/.vim/pack/pelon/start/unite.vim"]
 	path = mine/.vim/pack/pelon/start/unite.vim
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "mine/.vim/pack/pelon/opt/ultisnips"]
+	path = mine/.vim/pack/pelon/opt/ultisnips
+	url = https://GitHub (git clone git@github.com/SirVer/ultisnips.git
+[submodule "mine/.vim/pack/pelon/opt/splitjoin.vim"]
+	path = mine/.vim/pack/pelon/opt/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "mine/.vim/pack/pelon/opt/vimproc.vim"]
+	path = mine/.vim/pack/pelon/opt/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "mine/.vim/pack/pelon/opt/vim-colors-solarized"]
+	path = mine/.vim/pack/pelon/opt/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "mine/.vim/pack/pelon/opt/js-beautify"]
+	path = mine/.vim/pack/pelon/opt/js-beautify
+	url = https://github.com/beautify-web/js-beautify.git
+[submodule "mine/.vim/pack/pelon/opt/vim-jade"]
+	path = mine/.vim/pack/pelon/opt/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "mine/.vim/pack/pelon/opt/editorconfig-core-py"]
+	path = mine/.vim/pack/pelon/opt/editorconfig-core-py
+	url = https://github.com/editorconfig/editorconfig-core-py.git
+[submodule "mine/.vim/pack/pelon/opt/editorconfig-vim"]
+	path = mine/.vim/pack/pelon/opt/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "mine/.vim/pack/pelon/opt/vim-markdown"]
+	path = mine/.vim/pack/pelon/opt/vim-markdown
+	url = https://github.com/gabrielelana/vim-markdown.git
+[submodule "mine/.vim/pack/pelon/opt/tabular"]
+	path = mine/.vim/pack/pelon/opt/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "mine/.vim/pack/pelon/opt/googletest"]
+	path = mine/.vim/pack/pelon/opt/googletest
+	url = https://github.com/google/googletest.git
+[submodule "mine/.vim/pack/pelon/opt/vim-snippets"]
+	path = mine/.vim/pack/pelon/opt/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "mine/.vim/pack/pelon/opt/vim-writingsyntax"]
+	path = mine/.vim/pack/pelon/opt/vim-writingsyntax
+	url = https://github.com/jamestomasino/vim-writingsyntax.git
+[submodule "mine/.vim/pack/pelon/opt/vim-javascript-syntax"]
+	path = mine/.vim/pack/pelon/opt/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "mine/.vim/pack/pelon/opt/jsx.vim"]
+	path = mine/.vim/pack/pelon/opt/jsx.vim
+	url = https://github.com/jsx/jsx.vim.git
+[submodule "mine/.vim/pack/pelon/opt/vim-coffee-script"]
+	path = mine/.vim/pack/pelon/opt/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "mine/.vim/pack/pelon/opt/vim-jsbeautify"]
+	path = mine/.vim/pack/pelon/opt/vim-jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "mine/.vim/pack/pelon/opt/acorn"]
+	path = mine/.vim/pack/pelon/opt/acorn
+	url = https://github.com/marijnh/acorn.git
+[submodule "mine/.vim/pack/pelon/opt/tern_for_vim"]
+	path = mine/.vim/pack/pelon/opt/tern_for_vim
+	url = https://github.com/marijnh/tern_for_vim.git
+[submodule "mine/.vim/pack/pelon/opt/emmet-vim"]
+	path = mine/.vim/pack/pelon/opt/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "mine/.vim/pack/pelon/opt/vim-jsfmt"]
+	path = mine/.vim/pack/pelon/opt/vim-jsfmt
+	url = https://github.com/mephux/vim-jsfmt.git
+[submodule "mine/.vim/pack/pelon/opt/vim-togglelist"]
+	path = mine/.vim/pack/pelon/opt/vim-togglelist
+	url = https://github.com/milkypostman/vim-togglelist.git
+[submodule "mine/.vim/pack/pelon/opt/vim-node"]
+	path = mine/.vim/pack/pelon/opt/vim-node
+	url = https://github.com/moll/vim-node.git
+[submodule "mine/.vim/pack/pelon/opt/vimrunner"]
+	path = mine/.vim/pack/pelon/opt/vimrunner
+	url = https://github.com/moll/vimrunner.git
+[submodule "mine/.vim/pack/pelon/opt/vim-cjsx"]
+	path = mine/.vim/pack/pelon/opt/vim-cjsx
+	url = https://github.com/mtscout6/vim-cjsx.git
+[submodule "mine/.vim/pack/pelon/opt/vim-indent-guides"]
+	path = mine/.vim/pack/pelon/opt/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "mine/.vim/pack/pelon/opt/vim-handlebars"]
+	path = mine/.vim/pack/pelon/opt/vim-handlebars
+	url = https://github.com/nono/vim-handlebars.git
+[submodule "mine/.vim/pack/pelon/opt/vim-javascript"]
+	path = mine/.vim/pack/pelon/opt/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "mine/.vim/pack/pelon/opt/dash.vim"]
+	path = mine/.vim/pack/pelon/opt/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
+[submodule "mine/.vim/pack/pelon/opt/nerdcommenter"]
+	path = mine/.vim/pack/pelon/opt/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "mine/.vim/pack/pelon/opt/snipmate-snippets"]
+	path = mine/.vim/pack/pelon/opt/snipmate-snippets
+	url = https://github.com/scrooloose/snipmate-snippets.git
+[submodule "mine/.vim/pack/pelon/opt/syntastic"]
+	path = mine/.vim/pack/pelon/opt/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "mine/.vim/pack/pelon/opt/vim-themis"]
+	path = mine/.vim/pack/pelon/opt/vim-themis
+	url = https://github.com/thinca/vim-themis.git
+[submodule "mine/.vim/pack/pelon/opt/paperclip"]
+	path = mine/.vim/pack/pelon/opt/paperclip
+	url = https://github.com/thoughtbot/paperclip.git
+[submodule "mine/.vim/pack/pelon/opt/tlib_vim"]
+	path = mine/.vim/pack/pelon/opt/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "mine/.vim/pack/pelon/opt/vim-commentary"]
+	path = mine/.vim/pack/pelon/opt/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "mine/.vim/pack/pelon/opt/vim-dispatch"]
+	path = mine/.vim/pack/pelon/opt/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "mine/.vim/pack/pelon/opt/vim-fugitive"]
+	path = mine/.vim/pack/pelon/opt/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "mine/.vim/pack/pelon/opt/vim-jdaddy"]
+	path = mine/.vim/pack/pelon/opt/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy.git
+[submodule "mine/.vim/pack/pelon/opt/vim-obsession"]
+	path = mine/.vim/pack/pelon/opt/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git
+[submodule "mine/.vim/pack/pelon/opt/vim-projectionist"]
+	path = mine/.vim/pack/pelon/opt/vim-projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "mine/.vim/pack/pelon/opt/vim-repeat"]
+	path = mine/.vim/pack/pelon/opt/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "mine/.vim/pack/pelon/opt/vim-scriptease"]
+	path = mine/.vim/pack/pelon/opt/vim-scriptease
+	url = https://github.com/tpope/vim-scriptease.git
+[submodule "mine/.vim/pack/pelon/opt/vim-sleuth"]
+	path = mine/.vim/pack/pelon/opt/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
+[submodule "mine/.vim/pack/pelon/opt/vim-surround"]
+	path = mine/.vim/pack/pelon/opt/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "mine/.vim/pack/pelon/opt/vim-tbone"]
+	path = mine/.vim/pack/pelon/opt/vim-tbone
+	url = https://github.com/tpope/vim-tbone.git
+[submodule "mine/.vim/pack/pelon/opt/vim-unimpaired"]
+	path = mine/.vim/pack/pelon/opt/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "mine/.vim/pack/pelon/opt/vim-vinegar"]
+	path = mine/.vim/pack/pelon/opt/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar.git
+[submodule "mine/.vim/pack/pelon/opt/vim-stylus"]
+	path = mine/.vim/pack/pelon/opt/vim-stylus
+	url = https://github.com/wavded/vim-stylus.git
+[submodule "mine/.vim/pack/pelon/opt/zope-snipmate-bundle"]
+	path = mine/.vim/pack/pelon/opt/zope-snipmate-bundle
+	url = https://github.com/zedr/zope-snipmate-bundle.git
+[submodule "mine/.vim/pack/pelon/opt/vim-markdown-preview"]
+	path = mine/.vim/pack/pelon/opt/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
+[submodule "mine/.vim/pack/pelon/opt/vim-pandoc"]
+	path = mine/.vim/pack/pelon/opt/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
