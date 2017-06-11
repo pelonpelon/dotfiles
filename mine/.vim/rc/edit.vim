@@ -7,7 +7,7 @@ set encoding=utf-8 nobomb " BOM often causes trouble
 set esckeys " Allow cursor keys in insert mode.
 set expandtab " Expand tabs to spaces
 autocmd filetype make setlocal noexpandtab
-autocmd filetype pandoc setlocal wrap tw=72 wrapmargin=2 formatoptions=at1
+autocmd filetype pandoc setlocal wrap tw=72 wrapmargin=2 formatoptions=at1row
 set foldcolumn=0 " Column to show folds
 set foldenable
 set foldlevel=9

@@ -1,9 +1,9 @@
 " edit these files with fg
 
 let s:rcs = ['~/.vim/rc/_init.vim']
-let s:rcs += ['~/.vim/rc/edit.vim']
 let s:rcs += ['~/.vim/rc/plugins.vim']
 let s:rcs += ['~/.vim/rc/filetypes.vim']
+let s:rcs += ['~/.vim/rc/edit.vim']
 let s:rcs += ['~/.vim/rc/functions.vim']
 let s:rcs += ['~/.vim/rc/mappings.vim']
 let s:rcs += ['~/.vim/rc/syntax.vim']

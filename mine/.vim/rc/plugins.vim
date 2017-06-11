@@ -15,7 +15,7 @@ function! s:writemode()
   Goyo
   Limelight!!
 endfunction
-nnoremap <silent> <SPACE>w :call <SID>writemode()<cr>
+nnoremap <silent> <SPACE>w :call <SID>writemode()<cr>:hi Conceal ctermfg=39 ctermbg=233<cr>
 
 
 " Thesaurus Query
@@ -27,6 +27,7 @@ nnoremap <space>t :ThesaurusQueryReplaceCurrentWord<cr>
 
 """ pandoc
 let g:pandoc#folding#fdc = 0
+let g:pandoc#modules#disabled = ["formatting"]
 
 """ javascript-libraries-syntax.vim 
 " let g:used_javascript_libs = 'jquery,underscore,backbone,prelude,angularjs,angularui,react,flux,requirejs,sugar,jasmine,chai'

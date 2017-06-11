@@ -1,3 +1,7 @@
+" No more 2-fingered command line access
+nnoremap ; :
+"nnoremap : ;
+
 " Speed up viewport scrolling
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
@@ -71,9 +75,9 @@ endfunction
 noremap <leader>ss :call StripWhitespace ()<CR>
 
 " Toggle folds (<Space>)
-nnoremap <silent> <space> :exe 'silent! normal! '.((foldclosed('.')>0)? 'zMzx' : 'zc')<CR>
+"nnoremap <silent> <space> :exe 'silent! normal! '.((foldclosed('.')>0)? 'zMzx' : 'zc')<CR>
 " nnoremap <silent> <CR> :exe 'silent! normal! '.((foldclosed('.')>0)? 'zMzx' : 'zc')<CR>
-noremap <silent> ;; :exe 'silent! normal! '.'za'<CR>
+"noremap <silent> ;; :exe 'silent! normal! '.'za'<CR>
 
 " Fix page up and down
 map <PageUp> <C-U>
@@ -157,11 +161,11 @@ nnoremap <localleader>gpa :call system('git commit -am "small change"')
 nnoremap <localleader>gpt :call system('git commit -m "small change" expand('%')')
 
 " UP DOWN LEFT RIGHT in insert mode
-inoremap <C-h> <left>
-inoremap <C-l> <right>
+"inoremap <C-h> <left>
+"inoremap <C-l> <right>
+"inoremap <C-j> <down>
+"inoremap <C-k> <up>
 
-inoremap <C-j> <down>
-inoremap <C-k> <up>
 " move windows and tabs
 nnoremap <C-h> <C-w>w
 nnoremap <C-l> <C-W>W
