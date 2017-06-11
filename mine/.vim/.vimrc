@@ -1,29 +1,33 @@
-
 " edit these files with fg
 
-let rcs = ['~/.vim/rc/_init.vim']
-let rcs += ['~/.vim/rc/edit.vim']
-let rcs += ['~/.vim/rc/syntax.vim']
-let rcs += ['~/.vim/rc/plugins.vim']
-let rcs += ['~/.vim/rc/filetypes.vim']
-let rcs += ['~/.vim/rc/functions.vim']
-let rcs += ['~/.vim/rc/unite.vim']
-let rcs += ['~/.vim/rc/mappings.vim']
-"let rcs += ['~/.vim/rc/memolist.vim']
-"let rcs += ['~/.vim/rc/vimrc-tagbar.vim']
-"let rcs += ['~/.vim/rc/MetafileManager.vim']
-"let rcs += ['~/.vim/rc/famous.vim']
-"let rcs += ['~/.vim/rc/ctrlp.vim']
-"let rcs += ['~/.vim/rc/memolist.vim']
-"let rcs += ['~/.vim/rc/wordprocessor.vim']
+let s:rcs = ['~/.vim/rc/_init.vim']
+let s:rcs += ['~/.vim/rc/edit.vim']
+let s:rcs += ['~/.vim/rc/plugins.vim']
+let s:rcs += ['~/.vim/rc/filetypes.vim']
+let s:rcs += ['~/.vim/rc/functions.vim']
+let s:rcs += ['~/.vim/rc/mappings.vim']
+let s:rcs += ['~/.vim/rc/syntax.vim']
+"let s:rcs += ['~/.vim/rc/memolist.vim']
+"let s:rcs += ['~/.vim/rc/vimrc-tagbar.vim']
+"let s:rcs += ['~/.vim/rc/MetafileManager.vim']
+"let s:rcs += ['~/.vim/rc/famous.vim']
+"let s:rcs += ['~/.vim/rc/ctrlp.vim']
+"let s:rcs += ['~/.vim/rc/memolist.vim']
+"let s:rcs += ['~/.vim/rc/wordprocessor.vim']
 
-for item in rcs
+for item in s:rcs
   let vimrc = 'source ' . item
   try
     exec vimrc
   catch
   endtry
 endfor
+
+if v:vim_did_enter
+  source ~/.vim/rc/unite.vim
+else
+ au VimEnter * source ~/.vim/rc/unite.vim
+endif
 
 try
   source ~/.vimrc.local

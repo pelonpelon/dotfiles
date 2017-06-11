@@ -190,3 +190,9 @@
 [submodule "mine/.vim/pack/pelon/opt/thesaurus_query.vim.git"]
 	path = mine/.vim/pack/pelon/opt/thesaurus_query.vim.git
 	url = https://github.com/Ron89/thesaurus_query.vim.git
+[submodule "mine/.vim/pack/pelon/opt/limelight.vim"]
+	path = mine/.vim/pack/pelon/opt/limelight.vim
+	url = https://github.com/junegunn/limelight.vim.git
+[submodule "mine/.vim/pack/pelon/opt/goyo.vim"]
+	path = mine/.vim/pack/pelon/opt/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git

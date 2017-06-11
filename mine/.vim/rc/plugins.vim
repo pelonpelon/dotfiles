@@ -1,7 +1,29 @@
-# Thesaurus Query
+" Goyo / Limelight
+"let g:loaded_goyo = 0
+"let g:loaded_limelight = 0
+function! s:writemode()
+  if !exists("g:loaded_thesaurus_query")
+    packadd thesaurus_query.vim.git
+  endif
+  if !exists("g:loaded_limelight")
+    packadd limelight.vim
+  endif
+  if !exists("g:loaded_goyo")
+    packadd goyo.vim
+    let g:loaded_goyo = 1
+  endif
+  Goyo
+  Limelight!!
+endfunction
+nnoremap <silent> <SPACE>w :call <SID>writemode()<cr>
+
+
+" Thesaurus Query
 let g:tq_enabled_backends=["thesaurus_com","openoffice_en","mthesaur_txt"]
 let g:tq_openoffice_en_file="~/.vim/thesaurus/th_en_US_v2"
 let g:tq_mthesaur_file="~/.vim/thesaurus/mthesaur.txt"
+let g:tq_map_keys = 1
+nnoremap <space>t :ThesaurusQueryReplaceCurrentWord<cr>
 
 """ pandoc
 let g:pandoc#folding#fdc = 0
