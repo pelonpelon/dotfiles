@@ -110,33 +110,33 @@ let g:syntastic_coffee_coffeelint_quiet_messages = { "type":  "Style", "regex": 
 let g:syntastic_coffee_coffeelint_exec = '/usr/local/bin/coffeelint'
 
 """ UltiSnips """
-set runtimepath+=~/.vim/ultisnips_rep
+"set runtimepath+=~/.vim/ultisnips_rep
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-function! g:UltiSnips_Complete()
-    call UltiSnips#ExpandSnippet()
-    if g:ulti_expand_res == 0
-        if pumvisible()
-            return "\<C-n>"
-        else
-            call UltiSnips#JumpForwards()
-            if g:ulti_jump_forwards_res == 0
-               return "\<TAB>"
-            endif
-        endif
-    endif
-    return ""
-endfunction
-
-au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
-let g:UltiSnipsExpandTrigger           = '<tab>'
-let g:UltiSnipsJumpForwardTrigger      = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
-let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
-let g:UltiSnipsListSnippets="<c-e>"
-let g:UltiSnipsEditSplit="vertical"
-nnoremap <f5> :UltiSnipsEdit<CR>
+"function! g:UltiSnips_Complete()
+"    call UltiSnips#ExpandSnippet()
+"    if g:ulti_expand_res == 0
+"        if pumvisible()
+"            return "\<C-n>"
+"        else
+"            call UltiSnips#JumpForwards()
+"            if g:ulti_jump_forwards_res == 0
+"               return "\<TAB>"
+"            endif
+"        endif
+"    endif
+"    return ""
+"endfunction
+"
+"au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
+"let g:UltiSnipsExpandTrigger           = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+"let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+"let g:UltiSnipsListSnippets="<c-e>"
+"let g:UltiSnipsEditSplit="vertical"
+"nnoremap <f5> :UltiSnipsEdit<CR>
 
 " choose first match in popup if shortest 
 " function! ExpandPossibleShorterSnippet()
@@ -155,11 +155,11 @@ nnoremap <f5> :UltiSnipsEdit<CR>
   " exec 'set ft=' . a:f
 " endfunction
 
-function! UltisnipsStop()
-  if &ft=="mithril\.javascript"
-    exec "normal! \<ESC>"
-  endif
-endfunc
+"function! UltisnipsStop()
+"  if &ft=="mithril\.javascript"
+"    exec "normal! \<ESC>"
+"  endif
+"endfunc
 
 """ vim-startify """
 

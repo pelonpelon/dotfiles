@@ -106,9 +106,6 @@
 [submodule "mine/.vim/pack/pelon/opt/vim-javascript"]
 	path = mine/.vim/pack/pelon/opt/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "mine/.vim/pack/pelon/opt/dash.vim"]
-	path = mine/.vim/pack/pelon/opt/dash.vim
-	url = https://github.com/rizzatti/dash.vim.git
 [submodule "mine/.vim/pack/pelon/opt/nerdcommenter"]
 	path = mine/.vim/pack/pelon/opt/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -124,12 +121,6 @@
 [submodule "mine/.vim/pack/pelon/opt/paperclip"]
 	path = mine/.vim/pack/pelon/opt/paperclip
 	url = https://github.com/thoughtbot/paperclip.git
-[submodule "mine/.vim/pack/pelon/opt/tlib_vim"]
-	path = mine/.vim/pack/pelon/opt/tlib_vim
-	url = https://github.com/tomtom/tlib_vim.git
-[submodule "mine/.vim/pack/pelon/opt/vim-commentary"]
-	path = mine/.vim/pack/pelon/opt/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
 [submodule "mine/.vim/pack/pelon/opt/vim-dispatch"]
 	path = mine/.vim/pack/pelon/opt/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
