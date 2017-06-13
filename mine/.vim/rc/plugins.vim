@@ -22,12 +22,13 @@ nnoremap <silent> <SPACE>w :call <SID>writemode()<cr>:hi Conceal ctermfg=39 cter
 let g:tq_enabled_backends=["thesaurus_com","openoffice_en","mthesaur_txt"]
 let g:tq_openoffice_en_file="~/.vim/thesaurus/th_en_US_v2"
 let g:tq_mthesaur_file="~/.vim/thesaurus/mthesaur.txt"
-let g:tq_map_keys = 1
+let g:tq_map_keys = 0
 nnoremap <space>t :ThesaurusQueryReplaceCurrentWord<cr>
 
 """ pandoc
 let g:pandoc#folding#fdc = 0
 let g:pandoc#modules#disabled = ["formatting"]
+au filetype pandoc nnoremap <localleader>\ :TOC<cr>:cclose<cr>
 
 """ javascript-libraries-syntax.vim 
 " let g:used_javascript_libs = 'jquery,underscore,backbone,prelude,angularjs,angularui,react,flux,requirejs,sugar,jasmine,chai'
@@ -45,7 +46,13 @@ let g:voom_tree_width = 40
 """ NERD Commenter
 let NERDSpaceDelims=1
 let NERDCompactSexyComs=1
-let g:NERDCustomDelimiters = { 'racket': { 'left': ';', 'leftAlt': '#|', 'rightAlt': '|#' } }
+let g:NERDCustomDelimiters = { 
+\ 'racket': { 'left': ';', 'leftAlt': '#|', 'rightAlt': '|#' },
+\ 'html': { 'left': '<!--', 'right': '-->', 'leftAlt': '<?php', 'rightAlt': '?>' },
+\ 'pandoc': { 'left': '<!--', 'right': '-->', 'leftAlt': '**', 'rightAlt': '**' },
+\ }
+nnoremap <leader>cc :call NERDComment("n", "Toggle")<cr>
+
 
 """" netrw
 " Browse with 'gx'

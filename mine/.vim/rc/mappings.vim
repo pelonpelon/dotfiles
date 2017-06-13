@@ -172,6 +172,12 @@ nnoremap <C-l> <C-W>W
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <C-k> :tabnext<CR>
 
+" move in INSERT mode
+inoremap <C-h> <left>
+inoremap <C-l> <right>
+inoremap <C-j> <up>
+inoremap <C-k> <down>
+
 " scroll other window
 nmap <c-down> <c-w>p<c-e><c-w>p
 nmap <c-up> <c-w>p<c-y><c-w>p

@@ -106,9 +106,6 @@
 [submodule "mine/.vim/pack/pelon/opt/vim-javascript"]
 	path = mine/.vim/pack/pelon/opt/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "mine/.vim/pack/pelon/opt/nerdcommenter"]
-	path = mine/.vim/pack/pelon/opt/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "mine/.vim/pack/pelon/opt/snipmate-snippets"]
 	path = mine/.vim/pack/pelon/opt/snipmate-snippets
 	url = https://github.com/scrooloose/snipmate-snippets.git
@@ -187,3 +184,12 @@
 [submodule "mine/.vim/pack/pelon/opt/goyo.vim"]
 	path = mine/.vim/pack/pelon/opt/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
+[submodule "mine/.vim/pack/pelon/start/nerdcommenter"]
+	path = mine/.vim/pack/pelon/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "mine/.vim/pack/pelon/start/vim-signature"]
+	path = mine/.vim/pack/pelon/start/vim-signature
+	url = https://github.com/kshenoy/vim-signature.git
+[submodule "mine/.vim/pack/pelon/opt/asyncrun.vim"]
+	path = mine/.vim/pack/pelon/opt/asyncrun.vim
+	url = https://github.com/skywind3000/asyncrun.vim.git
